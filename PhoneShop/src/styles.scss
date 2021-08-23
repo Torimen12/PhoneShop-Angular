@@ -1,1 +1,110 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primaryColor: #f1f1f1;
+    --black: #222;
+    --orange: #eb0028;
+    --secondaryColor: #2b1f4d;
+    --yellow: #ffcc00;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  @font-face {
+    font-family: 'Poppins-100';
+    src: url('./assets/font/Poppins/Poppins-Thin.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Poppins-200';
+    src: url('./assets/font/Poppins/Poppins-ExtraLight.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Poppins-300';
+    src: url('./assets/font/Poppins/Poppins-Light.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Poppins-400';
+    src: url('./assets/font/Poppins/Poppins-Regular.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Poppins-500';
+    src: url('./assets/font/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Poppins-600';
+    src: url('./assets/font/Poppins/Poppins-SemiBold.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Poppins-700';
+    src: url('./assets/font/Poppins/Poppins-Bold.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Poppins-800';
+    src: url('./assets/font/Poppins/Poppins-ExtraBold.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Poppins-900';
+    src: url('./assets/font/Poppins/Poppins-Black.ttf') format('truetype');
+    font-weight:normal;
+    font-style: normal;
+  }
+ 
+  body,
+  input {
+    font-size: 1.6rem;
+    font-family: 'Poppins-400', sans-serif;
+    color: var(--black);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  h2{
+    font-family: 'Poppins-600', sans-serif;
+  }
+  h3,
+  h4 {
+    font-family: 'Poppins-500', sans-serif;
+  }
+
