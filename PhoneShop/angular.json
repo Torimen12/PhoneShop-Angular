@@ -32,8 +32,8 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/@glidejs/glide/src/assets/sass/glide.core",
-              "node_modules/@glidejs/glide/src/assets/sass/glide.theme"
+              "node_modules/@glidejs/glide/src/assets/sass/glide.core.scss",
+              "node_modules/@glidejs/glide/src/assets/sass/glide.theme.scss"
             ],
             "scripts": []
           },

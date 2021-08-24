@@ -1,4 +1,6 @@
+import { ViewChild } from '@angular/core';
 import { Component, OnInit } from '@angular/core';
+import { NgxGlideComponent } from 'ngx-glide';
 
 @Component({
   selector: 'app-hero',
@@ -6,8 +8,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero.component.scss']
 })
 export class HeroComponent implements OnInit {
+  showCustomArrows!: boolean;
+  constructor() { 
+    this.showCustomArrows = true; 
+  }
+  // @ViewChild(NgxGlideComponent, { static: false }) ngxGlide!: NgxGlideComponent;
 
-  constructor() { }
+  // play(): void {
+  //   this.ngxGlide.play();
+  // }
+
+ 
 
   ngOnInit(): void {
   }
