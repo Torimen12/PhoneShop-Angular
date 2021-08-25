@@ -1,0 +1,14 @@
+.facility{
+    margin-top: 6rem;
+    // margin-bottom: 6rem;
+    width: 100%;
+    background: var(--primaryColor);    
+    .facility-list{
+        max-width: 117rem;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        align-items: center;
+        justify-content: center;        
+    }
+}

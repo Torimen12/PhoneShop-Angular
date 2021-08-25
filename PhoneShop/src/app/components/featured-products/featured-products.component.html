@@ -1,1 +1,25 @@
-<p>featured-products works!</p>
+<div class="products" id="category">
+    <div class="products-title">
+        <div class="title all-products">
+            <span class="square"><span></span></span>
+            <p>All Products</p>
+        </div>
+        <div class="title trending-products">
+            <span class="square"><span></span></span>
+            <p>Trending Products</p>
+        </div>
+        <div class="title special-products">
+            <span class="square"><span></span></span>
+            <p>Special Products</p>
+        </div>
+        <div class="title featured-products">
+            <span class="square"><span></span></span>
+            <p>Featured Products</p>
+        </div>
+    </div>
+    <div class="products-list">
+        <ng-container *ngFor="let product of productsList">
+            <app-product [prod]="product"></app-product>
+        </ng-container>
+    </div>
+</div>

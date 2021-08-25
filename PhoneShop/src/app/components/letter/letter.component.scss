@@ -1,0 +1,50 @@
+.letter{
+    display: flex;
+    justify-content: space-between;
+    padding: 6.5rem;    
+    .letter-left{
+        flex: 1;    
+        h3{
+            font-size: 2.4rem;
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+        }
+        p{
+            font-size: 1.4rem;
+            opacity: 0.8;
+        }
+    }
+    .letter-right{
+        flex: 1;
+        /* margin: 0.5rem 0; */
+        /* background-color: var(--primaryColor); */
+        display: flex;
+        align-items: center;
+        justify-content: center;        
+        .form{
+            width: 90%;
+            display: flex;
+            margin: 1rem 0;
+            align-items: center;
+            justify-content: center;            
+            input{
+                height: 5rem;
+                width: 70%;
+                padding: 2rem;
+                background: var(--primaryColor);
+                outline: none;
+                border: none;
+            }
+            span{
+                width: 30%;
+                background: black;
+                color: white;
+                padding: 1.3rem 2rem;
+                text-align: center;
+                &:hover{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

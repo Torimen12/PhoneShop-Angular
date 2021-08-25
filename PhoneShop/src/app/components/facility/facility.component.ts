@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Facility } from 'src/app/interface/facility';
 
 @Component({
   selector: 'app-facility',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FacilityComponent implements OnInit {
 
+  @Input() facility! : Facility;
   constructor() { }
 
   ngOnInit(): void {

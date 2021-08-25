@@ -1,0 +1,24 @@
+.glide__slide{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5rem;
+    img{
+        object-fit: cover;
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        align-items: center;
+    }
+    p{
+        font-size: 1.5rem;
+        font-family: "Poppins-200";
+        line-height: 2.5rem;
+        font-style: italic;
+        margin: 3rem 26rem;                
+    }
+    p{
+        font-size: 1.5rem;
+        font-family: "Poppins-200";
+        line-height: 2.5rem;
+    }
+}

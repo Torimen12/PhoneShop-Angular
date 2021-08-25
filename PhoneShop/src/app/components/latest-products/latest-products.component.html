@@ -4,7 +4,6 @@
         <p>Latest Products</p>
     </div>
     <ngx-glide
-                [showArrows]= "false"
                 [showBullets]= "false"
                 [type]="'carousel'"
                 [startAt]=0
@@ -14,206 +13,22 @@
                 [perTouch]="false"
                 [gap]= 0
                 [animationDuration]=1000
-                
+                [arrowLeftTemplate]="(showCustomArrows && arrowLeftTemplate) || null"
+                [arrowRightTemplate]="(showCustomArrows && arrowRightTemplate) || null"                
     >
-        <div class="glide__slide">
-            <img src="../../../assets/img/iphone1.jpeg" alt="">
-            <p>Apple iPhone XR</p>
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-            <span>$550</span>
-            <button>ADD TO CART</button>
-            <div class="quick-view">
-                <div class="border">
-                    <i class="fas fa-eye"></i>
-                </div>
-                <div class="border">
-                    <i class="far fa-heart"></i>
-                </div>
-                <div class="border">
-                    <i class="fas fa-redo"></i>
-                </div>
-            </div>
-        </div>   
-        
-        <div class="glide__slide">
-            <img src="../../../assets/img/iphone2.jpeg" alt="">
-            <p>Apple iPhone XR</p>
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-            <span>$550</span>
-            <button>ADD TO CART</button>
-            <div class="quick-view">
-                <div class="border">
-                    <i class="fas fa-eye"></i>
-                </div>
-                <div class="border">
-                    <i class="far fa-heart"></i>
-                </div>
-                <div class="border">
-                    <i class="fas fa-redo"></i>
-                </div>
-            </div>
-        </div>
-    
-        <div class="glide__slide">
-            <img src="../../../assets/img/iphone3.jpeg" alt="">
-            <p>Apple iPhone XR</p>
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-            <span>$550</span>
-            <button>ADD TO CART</button>
-            <div class="quick-view">
-                <div class="border">
-                    <i class="fas fa-eye"></i>
-                </div>
-                <div class="border">
-                    <i class="far fa-heart"></i>
-                </div>
-                <div class="border">
-                    <i class="fas fa-redo"></i>
-                </div>
-            </div>
-        </div>
-    
-        <div class="glide__slide">
-            <img src="../../../assets/img/samsung1.jpeg" alt="">
-            <p>SamSung Galaxy S21</p>
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-            <span>$550</span>
-            <button>ADD TO CART</button>
-            <div class="quick-view">
-                <div class="border">
-                    <i class="fas fa-eye"></i>
-                </div>
-                <div class="border">
-                    <i class="far fa-heart"></i>
-                </div>
-                <div class="border">
-                    <i class="fas fa-redo"></i>
-                </div>
-            </div>
-        </div>
-    
-        <div class="glide__slide">
-            <img src="../../../assets/img/samsung2.jpeg" alt="">
-            <p>SamSung Galaxy S21</p>
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-            <span>$550</span>
-            <button>ADD TO CART</button>
-            <div class="quick-view">
-                <div class="border">
-                    <i class="fas fa-eye"></i>
-                </div>
-                <div class="border">
-                    <i class="far fa-heart"></i>
-                </div>
-                <div class="border">
-                    <i class="fas fa-redo"></i>
-                </div>
-            </div>
-        </div>
-    
-        <div class="glide__slide">
-            <img src="../../../assets/img/samsung3.jpeg" alt="">
-            <p>SamSung Galaxy S21</p>
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-            <span>$550</span>
-            <button>ADD TO CART</button>
-            <div class="quick-view">
-                <div class="border">
-                    <i class="fas fa-eye"></i>
-                </div>
-                <div class="border">
-                    <i class="far fa-heart"></i>
-                </div>
-                <div class="border">
-                    <i class="fas fa-redo"></i>
-                </div>
-            </div>
-        </div>
-    
-        <div class="glide__slide">
-            <img src="../../../assets/img/headphone1.jpeg" alt="">
-            <p>Headphone</p>
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-            <span>$550</span>
-            <button>ADD TO CART</button>
-            <div class="quick-view">
-                <div class="border">
-                    <i class="fas fa-eye"></i>
-                </div>
-                <div class="border">
-                    <i class="far fa-heart"></i>
-                </div>
-                <div class="border">
-                    <i class="fas fa-redo"></i>
-                </div>
-            </div>
-        </div>
-    
-        <div class="glide__slide">
-            <img src="../../../assets/img/headphone2.jpeg" alt="">
-            <p>Headphone</p>
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
-            <span>$550</span>
-            <button>ADD TO CART</button>
-            <div class="quick-view">
-                <div class="border">
-                    <i class="fas fa-eye"></i>
-                </div>
-                <div class="border">
-                    <i class="far fa-heart"></i>
-                </div>
-                <div class="border">
-                    <i class="fas fa-redo"></i>
-                </div>
-            </div>
-        </div>
+        <ng-container *ngFor= "let product of latestProducts">
+            <app-product [prod]="product"></app-product>
+        </ng-container>
     </ngx-glide>
+
+    <ng-template #arrowLeftTemplate>
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+            <i class="fas fa-arrow-left"></i>
+        </button>
+    </ng-template>
+    <ng-template #arrowRightTemplate>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+            <i class="fas fa-arrow-right"></i>
+        </button>
+    </ng-template>    
 </div>

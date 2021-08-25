@@ -1,0 +1,36 @@
+.facility-item{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    &:hover{
+        i{
+            transform: rotateY(180deg);
+        }
+    }  
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 8rem;
+        height: 8rem;
+        border: 1.5px solid white;
+        border-radius: 50%;
+        margin-bottom: 1.5rem;        
+        i{
+            width: 6rem;
+            height: 6rem;
+            /* border: 1px solid var(--black4); */
+            text-align: center;
+            line-height: 6rem;
+            border-radius: 50%;
+            font-size: 2.5rem;
+            background: white;
+            transition: 1s;
+        }
+    }
+    p{
+        font-size: 1.6rem;
+    }
+}

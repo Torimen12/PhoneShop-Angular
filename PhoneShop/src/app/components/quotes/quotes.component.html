@@ -1,1 +1,18 @@
-<p>quotes works!</p>
+<div class="quotes">
+    <ngx-glide
+        [showArrows]="false"
+        [showBullets]="true"
+        [type]="'carousel'"
+        [startAt]=0
+        [perView]=1
+        [autoplay]=2000
+        [hoverpause]="true"
+        [perTouch]="false"
+        [gap]= 0
+        [animationDuration]=1000    
+    >
+        <div *ngFor="let quote of quotes">
+            <app-quote [quote]="quote"></app-quote>
+        </div>
+    </ngx-glide>
+</div>

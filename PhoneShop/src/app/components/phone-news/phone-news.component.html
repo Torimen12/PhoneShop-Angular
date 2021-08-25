@@ -1,1 +1,24 @@
-<p>phone-news works!</p>
+<div class="phone-news" id="news">
+    <div class="phone-news-title">
+        <span class="square"><span></span></span>
+        <p>Phone News</p>
+    </div>
+    <div class="phone-new">
+        <ngx-glide
+            [showArrows]= "false"
+            [showBullets]="false"
+            [type]="'carousel'"
+            [startAt]=0
+            [perView]=3
+            [autoplay]=2000
+            [hoverpause]="true"
+            [perTouch]="false"
+            [gap]= 10
+            [animationDuration]=1000        
+        >
+            <ng-container *ngFor="let new of news">
+                <app-news [new]= "new"></app-news>
+            </ng-container>
+        </ngx-glide>
+    </div>
+</div>
