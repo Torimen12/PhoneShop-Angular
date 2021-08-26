@@ -15,9 +15,9 @@
             display: flex;
             align-items: center;
             opacity: 0.6;
-            &:first-child{
-                opacity: 1;
-            }
+            // &:first-child{
+            //     opacity: 1;
+            // }
             &:hover{
                 cursor: pointer;
                 opacity: 1;
@@ -45,4 +45,8 @@
         display: grid;
         grid-template-columns: auto auto auto auto;
     }
+}
+
+.active{
+    opacity: 1 !important;
 }

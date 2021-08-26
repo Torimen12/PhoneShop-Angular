@@ -1,18 +1,18 @@
 <div class="products" id="category">
     <div class="products-title">
-        <div class="title all-products">
+        <div class="title all-products active" (click) = "AllProducts($event)">
             <span class="square"><span></span></span>
             <p>All Products</p>
         </div>
-        <div class="title trending-products">
+        <div class="title trending-products" (click) = "TrendingProducts($event)">
             <span class="square"><span></span></span>
             <p>Trending Products</p>
         </div>
-        <div class="title special-products">
+        <div class="title special-products" (click) = "SpecialProducts($event)">
             <span class="square"><span></span></span>
             <p>Special Products</p>
         </div>
-        <div class="title featured-products">
+        <div class="title featured-products" (click) = "FeatureProducts($event)">
             <span class="square"><span></span></span>
             <p>Featured Products</p>
         </div>
