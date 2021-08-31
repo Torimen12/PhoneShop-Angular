@@ -1,4 +1,6 @@
 .hero{
+    font-family: 'Poppins-400';
+    font-size: 1.6rem;
     &:hover{
         .glide__arrow{
             opacity: 1;
@@ -26,6 +28,7 @@
                         margin-bottom: 1rem;
                     }
                     h1{
+                        font-family: 'Poppins-700';
                         margin-bottom: 1rem;
                     }
                     p{

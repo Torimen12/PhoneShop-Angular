@@ -22,6 +22,8 @@ import { NewsComponent } from './components/news/news.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { CartComponent } from './pages/cart/cart.component';
+import { ProductsFilterComponent } from './components/products-filter/products-filter.component';
+import { CostFilterComponent } from './components/cost-filter/cost-filter.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,9 @@ import { CartComponent } from './pages/cart/cart.component';
     NewsComponent,
     HomeComponent,
     ProductsComponent,
-    CartComponent
+    CartComponent,
+    ProductsFilterComponent,
+    CostFilterComponent
   ],
   imports: [
     BrowserModule,

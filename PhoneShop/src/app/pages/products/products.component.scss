@@ -1,0 +1,21 @@
+.products-container{
+    padding: 3rem 3rem 3rem 3rem;
+    background: var(--primaryColor);
+    .nav{
+        margin-bottom: 3rem;
+        span{
+            &:last-child{
+                color: black ;
+            }
+        }
+    }
+    .body{
+        display: flex;
+        .left{
+            flex: 1;
+        }
+        .right{
+            flex: 3;
+        }
+    }
+}

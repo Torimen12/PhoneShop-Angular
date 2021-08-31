@@ -1,6 +1,7 @@
 .header{
     position: relative;
     margin-bottom: 7rem;
+    font-family: 'Poppins-400';
     .navigation{
         position: fixed;
         top: 0;
@@ -20,15 +21,23 @@
         }
         .logo{
             flex: 2;
+            h2{
+                margin-bottom: 0 !important;
+            }
         }
         .nav{
             position: relative;
-            flex: 5;            
+            flex: 5;         
             .nav-top{
                 display: none;
+                span{
+                    font-family: 'Poppins-600' !important;
+                    font-size: 24px !important;
+                }
             }
             .nav-list{
                 display: flex;
+                margin-bottom: 0 !important;
                 .nav-item{
                     &:not(:last-child){
                         margin-right: 1.6rem;

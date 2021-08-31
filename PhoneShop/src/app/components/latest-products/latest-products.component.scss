@@ -1,4 +1,6 @@
 .latest-product{
+    font-family: 'Poppins-400';
+    font-size: 1.6rem;
     position: relative;
     width: 100%;
     margin-top: 9rem;
@@ -24,6 +26,9 @@
                 height: 8px;
                 background: black;
             }
+        }
+        p{
+            margin-bottom: 0 !important;
         }
     }
     .glide__arrow--left{

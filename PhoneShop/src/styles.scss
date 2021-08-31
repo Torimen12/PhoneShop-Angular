@@ -8,15 +8,17 @@
   }
   
   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: inherit ;
+    font-family: 'Poppins-400';
+    font-size: 1.6rem;
   }
   
   html {
-    font-size: 62.5%;
+    font-size: 62.5% !important;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth ;
   }
 
   @font-face {
@@ -83,28 +85,32 @@
  
   body,
   input {
-    font-size: 1.6rem;
-    font-family: 'Poppins-400', sans-serif;
-    color: var(--black);
+    font-size: 1.6rem ;
+    font-family: 'Poppins-400', sans-serif ;
+    color: var(--black) ;
   }
   
   a {
-    text-decoration: none;
+    text-decoration: none !important;
+    color: black !important;
   }
   
   ul {
-    list-style: none;
+    list-style: none !important;
   }
   
   img {
-    max-width: 100%;
+    max-width: 100% ;
   }
   
   h2{
-    font-family: 'Poppins-600', sans-serif;
+    font-family: 'Poppins-600', sans-serif !important;
   }
   h3,
   h4 {
-    font-family: 'Poppins-500', sans-serif;
+    font-family: 'Poppins-500', sans-serif !important ;
+  }
+  p{
+    margin-bottom: 0 !important;
   }
 

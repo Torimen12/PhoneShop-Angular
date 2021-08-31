@@ -1,0 +1,15 @@
+.filter-products{
+    .list-group{
+        .list-group-item{
+            padding: 1.5rem;
+            &:first-child{
+                text-align: center;
+                background: #42d827a1;
+                color: white;
+            }
+            &:nth-child(2){
+                background: #D9E8EC;
+            }
+        }
+    }
+}

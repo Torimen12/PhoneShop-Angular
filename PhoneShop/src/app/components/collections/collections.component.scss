@@ -1,4 +1,6 @@
 .collection{
+    font-family: 'Poppins-400';
+    font-size: 1.6rem;
     margin: 6rem 8rem;
     display: flex;
     justify-content: space-between;
@@ -16,17 +18,21 @@
             }
         }
        .collection-content{
+           h2{
+               font-family: 'Poppins-600';
+               font-size: 2.5rem;
+           }
            a{
                 button{
                     margin-top: 1rem;
-                    padding: 1rem 2rem;
+                    padding: 0.75rem 2rem;
                     border: none;
                     border-radius: 2rem;
                     border: 2px solid var(--secondaryColor);
                     color: white;
                     background: var(--secondaryColor);
                     font-size: 1.6rem;
-                    font-weight: 700;
+                    font-family: 'Poppins-700';
                     &:hover{
                         cursor: pointer;
                         color: var(--secondaryColor);
