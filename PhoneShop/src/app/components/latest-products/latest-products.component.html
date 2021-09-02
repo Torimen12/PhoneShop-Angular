@@ -17,7 +17,9 @@
                 [arrowRightTemplate]="(showCustomArrows && arrowRightTemplate) || null"                
     >
         <ng-container *ngFor= "let product of latestProducts">
-            <app-product [prod]="product"></app-product>
+            <div style="margin-top: 6rem;">
+                <app-product [prod]="product"></app-product>
+            </div>
         </ng-container>
     </ngx-glide>
 

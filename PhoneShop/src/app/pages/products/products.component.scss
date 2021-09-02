@@ -5,7 +5,7 @@
         margin-bottom: 3rem;
         span{
             &:last-child{
-                color: black ;
+                color: #D84727 ;
             }
         }
     }
@@ -13,9 +13,17 @@
         display: flex;
         .left{
             flex: 1;
+            margin-right: 3rem;
         }
         .right{
+            background: white;
             flex: 3;
+            padding-top: 3rem;
+            .row{
+                .col-4{
+                    margin-bottom: 6rem;
+                }
+            }
         }
     }
 }

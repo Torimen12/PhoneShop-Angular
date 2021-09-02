@@ -10,7 +10,7 @@
         background: var(--primaryColor);
         height: 6rem;
         position: relative;
-        margin-bottom: 6rem;       
+        margin-bottom: 0rem;       
         .title{
             display: flex;
             align-items: center;
@@ -44,6 +44,9 @@
     .products-list{
         display: grid;
         grid-template-columns: auto auto auto auto;
+        .product{
+            margin-top: 6rem;
+        }
     }
 }
 

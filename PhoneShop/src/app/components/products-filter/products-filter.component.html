@@ -3,22 +3,19 @@
         <li class="list-group-item">
             Products
         </li>
-        <li class="list-group-item">
+        <li class="list-group-item list-group-item-filter  active" (click)="addClassActive($event)" routerLink = "/products/all">
             All Products
         </li>
-        <li class="list-group-item">
+        <li class="list-group-item list-group-item-filter" (click)="addClassActive($event)" routerLink = "/products/trending">
             Trending
         </li>
-        <li class="list-group-item">
-            Featured
-        </li>
-        <li class="list-group-item">
+        <li class="list-group-item list-group-item-filter" (click)="addClassActive($event)" routerLink = "/products/special">
             Special
         </li>
-        <li class="list-group-item">
+        <li class="list-group-item list-group-item-filter" (click)="addClassActive($event)" routerLink = "/products/phone">
             Phone
         </li>
-        <li class="list-group-item">
+        <li class="list-group-item list-group-item-filter" (click)="addClassActive($event)" routerLink = "/products/headphone">
             Headphone
         </li>
     </ul>

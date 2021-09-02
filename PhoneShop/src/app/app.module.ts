@@ -24,6 +24,11 @@ import { ProductsComponent } from './pages/products/products.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { ProductsFilterComponent } from './components/products-filter/products-filter.component';
 import { CostFilterComponent } from './components/cost-filter/cost-filter.component';
+import { AllProductsComponent } from './components/all-products/all-products.component';
+import { TrendingProductsComponent } from './components/trending-products/trending-products.component';
+import { SpecialProductsComponent } from './components/special-products/special-products.component';
+import { PhoneComponent } from './components/phone/phone.component';
+import { HeadphoneComponent } from './components/headphone/headphone.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +51,12 @@ import { CostFilterComponent } from './components/cost-filter/cost-filter.compon
     ProductsComponent,
     CartComponent,
     ProductsFilterComponent,
-    CostFilterComponent
+    CostFilterComponent,
+    AllProductsComponent,
+    TrendingProductsComponent,
+    SpecialProductsComponent,
+    PhoneComponent,
+    HeadphoneComponent
   ],
   imports: [
     BrowserModule,

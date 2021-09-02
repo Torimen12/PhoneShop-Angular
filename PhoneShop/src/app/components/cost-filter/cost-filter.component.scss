@@ -2,13 +2,23 @@
     background: white;
     margin-top: 2rem;
     padding: 2rem 1rem;
+    border-radius: 5px;
     .text{
-
+        font-family: 'Poppins-600';
+        margin-bottom: 1rem;
     }
     .filter{
         .filter-list{
+            padding-left: 0 !important;
             .filter-item{
-
+                font-family: 'Poppins-300';
+                color: #777;
+                &:not(:last-child){
+                    margin-bottom: 1rem;
+                }
+                input{
+                    margin-right: 0.5rem;
+                }
             }
         }
     }
